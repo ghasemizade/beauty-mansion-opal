@@ -12,7 +12,12 @@ const navData = [
     {id: 4, name: "Contact Us", url: "/contact"},
 ]
 
-export default function sMenu() {
+interface MenuProps {
+  showCatMenu: boolean,
+  setShowCatMenu: (show: boolean) => void
+}
+
+export default function Menu({showCatMenu, setShowCatMenu}: MenuProps) {
     return (
       <ul className={clsx(
         "items-center justify-center flex",
