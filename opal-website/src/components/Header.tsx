@@ -46,7 +46,6 @@ export default function Header() {
         )}>
             <Wrapper className={clsx(
                 "h-[60px]",
-                // "flex justify-center items-center",
             )}>
                 <Image 
                     className={clsx(
