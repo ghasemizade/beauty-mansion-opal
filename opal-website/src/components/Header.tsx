@@ -36,7 +36,7 @@ export default function Header() {
 
     return (
         <header className={clsx(
-            "w-3/4 h-[50px]",
+            "w-full h-[50px]",
             "md:h-[80px]",
             "bg-white",
             "flex justify-center items-center",
