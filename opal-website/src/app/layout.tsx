@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import localFont from '@next/font/local'
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const dana = localFont({
   src: 'fonts/dana-regular.woff',
@@ -22,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={dana.className}>{children}
+      <body className={dana.className}>
+        {children}
       </body>
     </html>
   );
