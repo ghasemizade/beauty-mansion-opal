@@ -10,7 +10,8 @@ import Microblading from "../../public/Microblading.jpg"
 export default function Services() {
   return (
     <div className={clsx(
-        "mt-60",
+        "w-full",
+        "mt-40",
         "flex justify-center items-center flex-col"
     )}>
         <h2 className={clsx(
@@ -29,28 +30,28 @@ export default function Services() {
           "gap-5 mt-10"
         )}>
           <li className={clsx(
-            "w-72 h-[500px]",
+            "w-full h-[500px]",
             
           )}>
             <Image src={Nail} alt='' className="rounded-full"/>
           </li>
           <li className={clsx(
-            "w-72 h-[500px]"
+            "w-full h-[500px]"
           )}>
             <Image src={Facial} alt='' className="rounded-full"/>
           </li>
           <li className={clsx(
-            "w-72 h-[500px]"
+            "w-full h-[500px]"
           )}>
             <Image src={Microblading} alt='' className="rounded-full"/>
           </li>
           <li className={clsx(
-            "w-72 h-[500px]"
+            "w-full h-[500px]"
           )}>
             <Image src={FaceCare} alt='' className="rounded-full"/>
           </li>
           <li className={clsx(
-            "w-72 h-[500px]"
+            "w-full h-[500px]"
           )}>
             <Image src={Hair} alt='' className="rounded-full"/>
           </li>

@@ -5,8 +5,7 @@ import { CgScrollV } from "react-icons/cg";
 export default function Scroll() {
   return (
     <div className={clsx(
-        "absolute bottom-0",
-        "flex flex-col justify-center items-center",
+        "flex justify-center items-center",
     )}>
         <CgScrollV 
             size={50} 
