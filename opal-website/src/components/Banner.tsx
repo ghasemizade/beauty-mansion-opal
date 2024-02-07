@@ -20,7 +20,7 @@ export default function Banner() {
             <h1 className={clsx(
                 "text-white text-5xl font-bold",
                 "leading-relaxed",
-                "w-[400px]"
+                "w-[350px]"
             )}>
                 <Typewriter 
                     options={{
@@ -33,7 +33,7 @@ export default function Banner() {
         </div>
         <div className={clsx(
             "opacity-0",
-            "md:opacity-100",
+            "lg:opacity-100",
         )}>
             <Image 
                 src={BannerImg} 
