@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Scroll/>
-      <Services />
+      {/* <Services /> */}
     </main>
   );
 }
