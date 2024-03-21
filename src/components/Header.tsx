@@ -36,36 +36,40 @@ export default function Header() {
 
     return (
         <header className={clsx(
-            "w-full h-[50px]",
+            "w-full h-[80px]",
             "md:h-[80px]",
             "bg-white",
             "flex justify-center items-center",
+            "z-20",
             "sticky top-0",
-            "rounded-b-3xl",
             `${show}`
         )}>
             <Wrapper className={clsx(
                 "h-[60px]",
             )}>
-                <Image 
-                    className={clsx(
-                        "rounded-lg"
-                    )}
-                    width={80}
-                    height={80}
-                    src={Logo}
-                    alt="logo"
-                />
+                <Link
+                href={"/"}>
+                    <Image 
+                        className={clsx(
+                            "rounded-lg"
+                        )}
+                        width={100}
+                        height={100}
+                        src={Logo}
+                        alt="logo"
+                    />
+                </Link>
                 <Menu 
                     showCatMenu={showCatMenu} 
                     setShowCatMenu={setShowCatMenu}/>
+
                 <Link href={"https://www.instagram.com/opal_beauty_mansion/"} target="_blank" className={clsx(
                     "p-2",
                     "rounded-full",
                     "flex justify-around items-center",
                     "transition-all duration-200",
                     "border-2",
-                    "hover:border-black"
+                    "hover:border-[#A1A687]"
                 )}>
                     <FaInstagram size={25} color="black"/>
                 </Link>
