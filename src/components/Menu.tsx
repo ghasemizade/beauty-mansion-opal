@@ -1,7 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
 import React from 'react'
-import { BsChevronDown } from 'react-icons/bs'
 
 
 
@@ -23,7 +22,7 @@ export default function Menu({showCatMenu, setShowCatMenu}: MenuProps) {
         "items-center justify-center flex",
         "hidden",
         "md:flex",
-        "gap-20",
+        "gap-8",
         "font-medium",
         "text-bold"
     )}>
@@ -33,10 +32,12 @@ export default function Menu({showCatMenu, setShowCatMenu}: MenuProps) {
                 (
                   <li className={clsx(
                     "cursor-pointer",
-                    "w-24"
                     )}>
                       <Link href={`${item?.url}`} className={clsx(
-                        "hover:tracking-widest transition-all duration-200"
+                      "flex justify-center items-center",
+                        "transition-all duration-200",
+                        "border-2 rounded-full hover:border-[#A1A687]",
+                        "px-2 pt-1"
                       )}>
                           {item.name}
                       </Link>
