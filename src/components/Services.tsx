@@ -11,23 +11,20 @@ export default function Services() {
   return (
     <div className={clsx(
         "w-full",
-        "mt-40",
+        "my-10",
         "flex justify-center items-center flex-col"
     )}>
         <h2 className={clsx(
             "text-4xl font-bold",
-            "bg-[#A1A687] text-white p-4 ",
-            "rounded-tl-3xl rounded-br-3xl",
-            "hover:rounded-tr-3xl hover:rounded-bl-3xl hover:rounded-tl-none hover:rounded-br-none",
-            "transition-all duration-200",
-            "cursor-pointer",
-            "w-60 text-center"
+            "bg-[#A1A687] text-white px-10 py-5",
+            "rounded-[50px]",
+            
         )}>
             Services
         </h2>
         <ul className={clsx(
           "flex justify-center items-center",
-          "gap-5 mt-10"
+          "gap-1 my-10"
         )}>
           <li className={clsx(
             "w-full h-[500px]",
