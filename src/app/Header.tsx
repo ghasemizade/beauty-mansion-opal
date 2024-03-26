@@ -1,10 +1,9 @@
 'use client'
 import clsx from "clsx"
-import Wrapper from "./Wrapper"
+import Wrapper from "../components/Wrapper"
 import Link from "next/link"
 import Image from "next/image";
-import Logo from "../../public/logo.png"
-import Menu from "./Menu";
+import Menu from "../components/Menu";
 import { FaInstagram } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
@@ -55,7 +54,7 @@ export default function Header() {
                         )}
                         width={100}
                         height={100}
-                        src={Logo}
+                        src='/logo.png'
                         alt="logo"
                     />
                 </Link>
