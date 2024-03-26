@@ -1,9 +1,9 @@
 'use client'
 import clsx from "clsx"
-import Wrapper from "../components/Wrapper"
+import Wrapper from "./Wrapper"
 import Link from "next/link"
 import Image from "next/image";
-import Menu from "../components/Menu";
+import Menu from "./Menu";
 import { FaInstagram } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
