@@ -3,7 +3,7 @@ import clsx from "clsx"
 import Wrapper from "./Wrapper"
 import Link from "next/link"
 import Image from "next/image";
-import logo from "../../public/hair.jpg"
+import logo from "../../public/logo.png"
 import Menu from "./Menu";
 import { FaInstagram } from "react-icons/fa";
 import { useEffect, useState } from "react";
