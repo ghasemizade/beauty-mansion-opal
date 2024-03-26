@@ -3,6 +3,7 @@ import clsx from "clsx"
 import Wrapper from "./Wrapper"
 import Link from "next/link"
 import Image from "next/image";
+import logo from "../../public/hair.jpg"
 import Menu from "./Menu";
 import { FaInstagram } from "react-icons/fa";
 import { useEffect, useState } from "react";
@@ -54,7 +55,7 @@ export default function Header() {
                         )}
                         width={100}
                         height={100}
-                        src='/logo.png'
+                        src={logo}
                         alt="logo"
                     />
                 </Link>
