@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Header from "./Header";
+import Header from "../components/Header";
 import Banner from "../components/Banner"
 import Services from "@/components/Services";
 import Scroll from "@/components/Scroll";
