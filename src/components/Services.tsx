@@ -16,17 +16,9 @@ export default function Services() {
         "my-10",
         "flex justify-center items-center flex-col",
     )} id="services">
-        <h2 className={clsx(
-            "text-4xl font-bold",
-            "bg-[#A1A687] text-white px-10 py-5",
-            "rounded-[50px]",
-            
-        )}>
-            Services
-        </h2>
         <div className={clsx(
           "my-10",
-          "grid grid-cols-1 md:grid-cols-5 gap-20 md:gap-8",
+          "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 lg:gap-2 gap-20 md:gap-8",
           "mx-10",
         )}>
           <ServiceImg imgSrc={Nail} imgAlt='Nail' imgTitle={serviceTitle[0]}/>
