@@ -19,19 +19,19 @@ export default function LiComp({imgSrc, imgAlt, imgTitle}:LiComp) {
       )}>
         <Image
           src={imgSrc ? imgSrc : "not found"} 
-          alt={imgAlt ? imgAlt : "not found"} 
+          alt={imgAlt ? imgAlt : "not found"}
           className={clsx(
           "flex justify-center items-center",
           "w-full h-[500px]",
-          "rounded-full bg-cover bg-center",
-          "group-hover:blur-sm transition-all duration-100",
+          "rounded-3xl bg-cover bg-center",
+          "group-hover:blur-sm transition-all duration-100 group-hover:brightness-50",
           )}
         />
         <h2 className={clsx(
           "group-hover:opacity-100 opacity-0",
-          "text-3xl text-[#A1A687] font-bold",
+          "text-3xl text-[#fff] font-bold",
           "justify-center items-center flex",
-          "mt-2"
+          "mt-2 absolute"
         )}>{imgTitle}</h2>
       </div>
   )
