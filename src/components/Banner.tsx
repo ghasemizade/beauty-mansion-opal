@@ -27,6 +27,7 @@ export default function Banner() {
                 <h1 className={clsx(
                     "text-white text-3xl md:text-5xl font-bold tracking-wide",
                     "leading-relaxed",
+                    "p-0 md:p-10",
                     "w-[250px] md:w-[400px] h-20"
                 )}>
                     <Typewriter 
