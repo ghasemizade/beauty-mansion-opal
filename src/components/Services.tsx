@@ -6,6 +6,7 @@ import FaceCare from "../../public/face-care.jpg"
 import Hair from "../../public/hair-care.jpg"
 import Microblading from "../../public/Microblading.jpg"
 import ServiceImg from './ServicImg'
+import 'animate.css';
 
 export default function Services() {
   const serviceTitle = ["Nail", "Facial", "Microblading", "FaceCare", "Hair"]
@@ -18,8 +19,8 @@ export default function Services() {
     )} id="services">
         <div className={clsx(
           "my-10",
-          "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 lg:gap-2 gap-20 md:gap-8",
-          "mx-10",
+          "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:gap-2 gap-20 md:gap-8",
+          "mx-10"
         )}>
           <ServiceImg imgSrc={Nail} imgAlt='Nail' imgTitle={serviceTitle[0]}/>
           <ServiceImg imgSrc={Facial} imgAlt='Facial' imgTitle={serviceTitle[1]}/>
