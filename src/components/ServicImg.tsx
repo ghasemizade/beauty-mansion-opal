@@ -7,6 +7,7 @@ interface LiComp {
     imgSrc?: StaticImport
     imgAlt?: string
     imgTitle?: string
+    animate?: string
 }
 
 export default function LiComp({imgSrc, imgAlt, imgTitle}:LiComp) {
@@ -21,10 +22,10 @@ export default function LiComp({imgSrc, imgAlt, imgTitle}:LiComp) {
           src={imgSrc ? imgSrc : "not found"} 
           alt={imgAlt ? imgAlt : "not found"}
           className={clsx(
-          "flex justify-center items-center",
-          "w-full h-[500px]",
-          "rounded-3xl bg-cover bg-center",
-          "group-hover:blur-sm transition-all duration-100 group-hover:brightness-50",
+            "flex justify-center items-center",
+            "w-full h-[500px]",
+            "rounded-3xl bg-cover bg-center",
+            "group-hover:blur-sm transition-all duration-100 group-hover:brightness-50",
           )}
         />
         <h2 className={clsx(
