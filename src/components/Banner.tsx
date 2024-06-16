@@ -6,7 +6,6 @@ import BannerImg from "../../public/bannerImg.png"
 import Typewriter from 'typewriter-effect';
 
 
-
 export default function Banner() {
     const h1 = "Glow Your Beauty With Our Best Services"
   

@@ -23,3 +23,37 @@
     text-wrap: balance;
   }
 }
+
+body {
+
+  overflow-x: hidden;
+  
+}
+
+.swiper {
+  width: 980px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
