@@ -13,6 +13,11 @@ Welcome to the Beauty Mansion Opal repository! This project provides a web appli
 
 #### Clone the repository:
 ```console
-git clone https://github.com/ghasemizade/yatuka-cms.git
-cd yatuka-cms
+git clone https://github.com/ghasemizade/beauty-mansion-opal.git
+cd beauty-mansion-opal
+```
+
+### Install dependencies:
+```console
+npm install
 ```
