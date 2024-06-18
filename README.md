@@ -8,3 +8,11 @@ Welcome to the Beauty Mansion Opal repository! This project provides a web appli
 - Client Management: Keep track of client details, including contact information and service history.
 - Service Tracking: Record and monitor the services provided to each client.
 - Responsive Design: Accessible on various devices, ensuring usability for both staff and clients.
+
+## Installation
+
+#### Clone the repository:
+```console
+git clone https://github.com/ghasemizade/yatuka-cms.git
+cd yatuka-cms
+```
